@@ -1,6 +1,8 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    height: 80vh;
+    width: 80vh;
 }
 
 .hero {
@@ -41,4 +43,5 @@ body {
 .about {
     padding: 50px;
     text-align: center;
+
 }
