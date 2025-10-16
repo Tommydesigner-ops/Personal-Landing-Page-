@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(to right, #007bff, #00c6ff);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.btn {
+    background-color: white;
+    color: #007bff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-color: #f0f0f0;
+}
+
+.about {
+    padding: 50px;
+    text-align: center;
+}
